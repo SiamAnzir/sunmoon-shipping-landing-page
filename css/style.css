@@ -467,3 +467,190 @@
 .footer .copyright a {
   color: var(--light);
 }
+
+.contact_action_area {
+  background-image: url(../img/contact.webp);
+  position: relative;
+  z-index: 0;
+  padding: 138px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 767px) {
+  /* line 1, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+  .contact_action_area {
+    padding: 50px 0;
+  }
+}
+
+/* line 12, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+.contact_action_area::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #001d38;
+  opacity: 0.7;
+  z-index: -1;
+  content: "";
+}
+
+@media (max-width: 767px) {
+  /* line 23, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+  .contact_action_area .action_heading {
+    text-align: center;
+  }
+}
+
+/* line 27, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+.contact_action_area .action_heading h3 {
+  font-size: 46px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 13px;
+}
+
+@media (max-width: 767px) {
+  /* line 27, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+  .contact_action_area .action_heading h3 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 27, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+  .contact_action_area .action_heading h3 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 27, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+  .contact_action_area .action_heading h3 {
+    font-size: 30px;
+  }
+}
+
+/* line 43, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+.contact_action_area .action_heading p {
+  color: #eaeaea;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 23, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+  .contact_action_area .action_heading {
+    text-align: center;
+  }
+}
+
+/* line 53, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+.contact_action_area .call_add_action {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  /* line 53, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+  .contact_action_area .call_add_action {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 53, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+  .contact_action_area .call_add_action {
+    text-align: right;
+    margin-top: 0px;
+  }
+}
+
+/* line 62, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+.contact_action_area .call_add_action span {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 25px;
+}
+
+@media (max-width: 767px) {
+  /* line 62, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+  .contact_action_area .call_add_action span {
+    margin: 20px 0;
+    display: block;
+  }
+}
+
+/* line 72, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+.contact_action_area .call_add_action .boxed-btn3 {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  font-size: 26px;
+  padding: 14px 42px;
+  font-weight: 400;
+}
+
+@media (max-width: 767px) {
+  /* line 72, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+  .contact_action_area .call_add_action .boxed-btn3 {
+    font-size: 14px;
+    padding: 14px 30px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 72, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+  .contact_action_area .call_add_action .boxed-btn3 {
+    font-size: 14px;
+    padding: 14px 30px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+}
+
+/* line 89, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
+.contact_action_area .call_add_action .boxed-btn3:hover {
+  color: #000 !important;
+  background: #fff !important;
+  border-color: transparent;
+}
+
+.boxed-btn3 {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#FF3414+0,fd8e5e+100 */
+  background: #ff3e41;
+  color: #fff;
+  display: inline-block;
+  padding: 18px 42px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  border: 1px solid transparent;
+  text-align: center;
+  color: #fff !important;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* line 47, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_btn.scss */
+.boxed-btn3:hover {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#FF3414+0,fd8e5e+100 */
+  color: #ff3e41 !important;
+  border: 1px solid #ff3e41;
+  background: transparent;
+}
+
+.boxed-btn3:focus {
+  outline: none;
+}
